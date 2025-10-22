@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff0f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 2em;
+  font-weight: bold;
+  color: #d63384;
+  background-color: #ffe6f0;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tarjeta {
+  background-color: #fff;
+  width: 250px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tarjeta h3 {
+  font-size: 17px;
+  margin: 10px 0 5px;
+}
+
+.tarjeta p {
+  font-size: 14px;
+  color: #555;
+}
+
+.precio {
+  color: #d63384;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.boton-comprar {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-comprar:hover {
+  background-color: #b12a6e;
+}
+
